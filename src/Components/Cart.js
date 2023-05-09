@@ -62,7 +62,7 @@ const Cart = () => {
           <img src={item.img} onError={imageOnError} alt={item.name} className="cart-item-image" />
             <div className="cart-item-dsc">
             <p className="item-name"> {item.name}</p>
-            <p className="item-price"> Price : <span>${item.price * item.quantity}</span></p>
+            <p className="item-price"> Price : <span>${item.price * item.quantity.toFixed()}</span></p>
             </div>
           </div>
           <div className="btn-container">
