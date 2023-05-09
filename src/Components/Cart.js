@@ -59,7 +59,7 @@ const Cart = () => {
             </p>
           </div>
           <button onClick={order} className="order-btn">
-            order
+            Order
           </button>
         </div>
       )}
