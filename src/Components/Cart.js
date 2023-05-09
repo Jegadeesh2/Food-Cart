@@ -76,7 +76,7 @@ const Cart = () => {
               <p className="item-name"> {item.name}</p>
               <p className="item-price">
                 {" "}
-                Price : <span>${item.price * item.quantity.toFixed()}</span>
+                Price : <span>${item.price * item.quantity.toFixed(1)}</span>
               </p>
             </div>
           </div>
